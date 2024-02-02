@@ -12,6 +12,8 @@ namespace TopdownManipulation.Behaviours
 
         public override void Update()
         {
+            if(!_pulse) return;
+            
             if (_customColor != _currentColor)
             {
                 Deactivate();

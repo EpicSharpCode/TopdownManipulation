@@ -12,8 +12,7 @@ namespace TopdownManipulation.Behaviours
         void OnEnable()
         {
             _thisPrimitive.RemoveBehaviours<PulseColorBehaviour>(); 
-            _thisPrimitive.RemoveBehaviours<ColorMaterialBehaviour>(this); 
-            Activate();
+            _thisPrimitive.RemoveBehaviours<ColorMaterialBehaviour>(this);
         }
         void OnDisable() => Deactivate();
         void OnDestroy() { if(enabled) Deactivate(); }

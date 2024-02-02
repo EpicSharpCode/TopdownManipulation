@@ -8,7 +8,7 @@ namespace TopdownManipulation.Behaviours
     {
         public abstract Color GetGoalColor();
 
-        bool _pulse;
+        protected bool _pulse;
         Color _startColor;
         float _time;
 
@@ -17,7 +17,6 @@ namespace TopdownManipulation.Behaviours
             _startColor = Color.white;
             _thisPrimitive.RemoveBehaviours<ColorMaterialBehaviour>(); 
             _thisPrimitive.RemoveBehaviours<PulseColorBehaviour>(this);
-            Activate();
         }
         void OnDisable() => Deactivate();
         void OnDestroy() { if(enabled) Deactivate(); }

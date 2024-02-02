@@ -8,11 +8,12 @@ namespace TopdownManipulation.Behaviours
         public override string BehaviourName => "Custom Material Color";
 
         [SerializeField] Color _customColor = Color.white;
+        Color _currentColor;
 
-        public override Color GetGoalColor() => _customColor;
+        public override Color GetGoalColor() => _currentColor;
         void Update()
         {
-            SetMaterialsColor(_customColor);
+            if (_currentColor != _customColor) _currentColor = _customColor;
         }
 
         public void SetColor(Color color) => _customColor = color;

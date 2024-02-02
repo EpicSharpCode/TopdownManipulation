@@ -7,10 +7,11 @@ namespace TopdownManipulation.Behaviours
         [SerializeField] Vector3 _movementVector;
         Vector3 _currentVector;
         public override string BehaviourName => "Custom Movement";
-        public override Vector3 GetMovementVector() => _currentVector;
+        public override Vector3 MovementVector => _currentVector;
 
         public override void Update()
         {
+            if(!_movement) return;
             if(_currentVector != _movementVector)
             {
                 Deactivate();

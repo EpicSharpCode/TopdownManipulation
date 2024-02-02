@@ -39,5 +39,25 @@ namespace TopdownManipulation.Primitives
             if(exception != null) components.Remove(exception);
             for (int i = 0; i < components.Count; i++) { components[i].enabled = !silently; Destroy(components[i]); }
         }
+        
+        public BehaviourBase[] GetBehaviours<T>() where T : BehaviourBase 
+        {
+            return gameObject.GetComponents<T>();
+        }
+
+        public void ActivateAllBehaviours() => SetStateAllBehaviours(true);
+        public void DeactivateAllBehaviours() => SetStateAllBehaviours(false);
+
+        void SetStateAllBehaviours(bool state)
+        {
+            foreach (IBehaviour behaviour in GetBehaviours<BehaviourBase>())
+            {
+                if(behaviour == null) continue;
+                if(state == true) behaviour.Activate();
+                else behaviour.Deactivate();
+            }
+        }
+
+        public override string ToString() => PrimitiveName;
     }
 }
