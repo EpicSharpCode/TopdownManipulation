@@ -10,5 +10,8 @@ namespace TopdownManipulation.Behaviours
         public void RemoveBehaviour<T>(T t) where T : BehaviourBase;
         public void RemoveBehaviours<T>(T exception, bool silently = true) where T : BehaviourBase;
         public BehaviourBase[] GetBehaviours<T>() where T : BehaviourBase;
+        public void ActivateAllBehaviours();
+        public void DeactivateAllBehaviours();
+        void SetStateAllBehaviours(bool state);
     }
 }

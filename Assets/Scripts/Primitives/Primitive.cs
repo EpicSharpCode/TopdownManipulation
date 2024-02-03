@@ -51,7 +51,7 @@ namespace TopdownManipulation.Primitives
         public void ActivateAllBehaviours() => SetStateAllBehaviours(true);
         public void DeactivateAllBehaviours() => SetStateAllBehaviours(false);
 
-        void SetStateAllBehaviours(bool state)
+        public void SetStateAllBehaviours(bool state)
         {
             foreach (IBehaviour behaviour in GetBehaviours<BehaviourBase>())
             {
