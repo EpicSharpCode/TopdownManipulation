@@ -13,12 +13,13 @@ namespace TopdownManipulation
         [SerializeField] float _secondsToLerp = 3;
         
         float _currentSeconds;
-        
         Vector3 _standardPosition;
-        [SerializeField] Transform _goal;
+        Vector3 _goal;
+        
         void Awake()
         {
             _instance = this;
+            _goal = Vector3.zero;
             _standardPosition = transform.position;
             _currentSeconds = 0;
         }
@@ -34,18 +35,23 @@ namespace TopdownManipulation
             float t = _currentSeconds / _secondsToLerp;
             if (t > 1) t = 1;
             
-            if (_goal == null)
+            if (_goal == Vector3.zero)
             {
                 transform.position = Vector3.Lerp(transform.position, _standardPosition, t);
                 return;
             }
-            transform.position = Vector3.Lerp(transform.position, _goal.position + _cameraOffset, t);
+            transform.position = Vector3.Lerp(transform.position, _goal + _cameraOffset, t);
         }
 
-        public static void SelectGoal(Transform goal)
+        public static void SelectGoal(Vector3 goal)
         {
             _instance._currentSeconds = 0;
             _instance._goal = goal;
+        }
+        public static void SelectGoal(Transform goalTransform)
+        {
+            if(goalTransform == null) SelectGoal(Vector3.zero);
+            else SelectGoal(goalTransform.position);
         }
     }
 }

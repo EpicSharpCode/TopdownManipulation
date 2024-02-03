@@ -10,8 +10,6 @@ namespace TopdownManipulation
 {
     public class RaycastInput : MonoBehaviour
     {
-        static Primitive _selectedPrimitive;
-        public static Primitive SelectedPrimitive => _selectedPrimitive;
 
         [SerializeField] LayerMask layerMask;
 
@@ -20,8 +18,8 @@ namespace TopdownManipulation
             if (Input.GetMouseButtonDown(0))
             {
                 var primitive = TryRaycast<Primitive>();
-                if (primitive != null) Select(primitive);
-                else Deselect();
+                if (primitive != null) ManipulationController.Select(primitive);
+                else ManipulationController.Deselect();
             }
         }
 
@@ -34,21 +32,6 @@ namespace TopdownManipulation
                 return raycastHit.collider.GetComponent<T>();
             }
             return null;
-        }
-
-        public void Select(Primitive p)
-        {
-            if (_selectedPrimitive == p) return;
-            _selectedPrimitive?.DeactivateAllBehaviours();
-            _selectedPrimitive = p;
-            _selectedPrimitive.ActivateAllBehaviours();
-            CameraControl.SelectGoal(p.transform);
-        }
-        public void Deselect()
-        {
-            _selectedPrimitive?.DeactivateAllBehaviours();
-            _selectedPrimitive = null;
-            CameraControl.SelectGoal(null);
         }
     }
 }
