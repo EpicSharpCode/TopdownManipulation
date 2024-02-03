@@ -14,6 +14,7 @@ namespace TopdownManipulation
         void Awake()
         {
             _instance = this;
+            DontDestroyOnLoad(gameObject);
         }
 
         public static void Select(Primitive p)

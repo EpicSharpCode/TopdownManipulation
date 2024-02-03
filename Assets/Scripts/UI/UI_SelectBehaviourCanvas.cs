@@ -57,5 +57,7 @@ namespace TopdownManipulation.UI
             else _primitive.AddBehaviour<T>();
             Invoke("CheckButtons", Time.deltaTime);
         }
+        
+        public override void CloseButton() => ManipulationController.Deselect();
     }
 }

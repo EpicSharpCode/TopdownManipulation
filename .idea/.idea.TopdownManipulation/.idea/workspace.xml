@@ -6,9 +6,132 @@
   <component name="ChangeListManager">
     <list default="true" id="05656f1b-3ef9-4813-968d-5c0112e7d346" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TopdownManipulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TopdownManipulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/WorldSpaceCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/WorldSpaceCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IBehaviourHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IBehaviourHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Primitives/Primitive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Primitives/Primitive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Branch_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Branch_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Bush_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Bush_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Bush_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Bush_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Bush_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Bush_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Flowers_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Flowers_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Flowers_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Flowers_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Grass_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Grass_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Grass_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Grass_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Ground_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Ground_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Ground_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Ground_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Ground_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Ground_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Mushroom_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Mushroom_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Mushroom_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Mushroom_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_05.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Rock_05.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Stump_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Stump_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_05.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Models/Tree_05.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/PostProcessing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/PostProcessing/PostProcessing_SimpleNaturePack.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/PostProcessing/PostProcessing_SimpleNaturePack.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/PostProcessing/URP_SimpleNaturePack.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/PostProcessing/URP_SimpleNaturePack.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/PostProcessing/URP_SimpleNaturePack_Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/PostProcessing/URP_SimpleNaturePack_Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Branch_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Branch_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Bush_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Bush_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Bush_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Bush_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Bush_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Bush_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Flowers_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Flowers_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Flowers_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Flowers_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Grass_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Grass_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Grass_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Grass_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Ground_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Ground_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Ground_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Ground_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Ground_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Ground_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Mushroom_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Mushroom_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Mushroom_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Mushroom_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Rock_05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Stump_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Stump_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Prefabs/Tree_05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/WorldSpaceCanvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/WorldSpaceCanvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Playground/OcclusionCullingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Playground/OcclusionCullingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ManipulationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ManipulationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RaycastInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RaycastInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI_Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UI_Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI_SelectBehaviourCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UI_SelectBehaviourCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI_WorldSpaceCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UI_WorldSpaceCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/circle.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +150,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bp4kYZQoNGfSsGX4ioWkI8xrJ0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -39,26 +162,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/epic/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/epic/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/epic/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/epic/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/epic/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/epic/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MacOS/Unity" />
@@ -86,10 +209,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2343">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="2343" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -106,6 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706898837450</updated>
       <workItem from="1706898840454" duration="23794000" />
+      <workItem from="1706990171404" duration="4470000" />
     </task>
     <servers />
   </component>

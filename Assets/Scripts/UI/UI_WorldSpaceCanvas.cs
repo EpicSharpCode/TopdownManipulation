@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TopdownManipulation;
 using TopdownManipulation.Primitives;
 using UnityEngine;
 
@@ -37,6 +38,8 @@ public abstract class UI_WorldSpaceCanvas : MonoBehaviour
         _currentSeconds = 0;
         _canvasState = false;
     }
+
+    public virtual void CloseButton() => Hide();
 
     void Update()
     {

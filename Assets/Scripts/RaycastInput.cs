@@ -13,6 +13,11 @@ namespace TopdownManipulation
 
         [SerializeField] LayerMask layerMask;
 
+        void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+
         void Update()
         {
             if (Input.GetMouseButtonDown(0))
