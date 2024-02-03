@@ -27,8 +27,11 @@ namespace TopdownManipulation.Primitives
 
         public T AddBehaviour<T>() where T : BehaviourBase
         {
+            if (GetBehaviours<T>().Length > 0) return null;
             if(gameObject.GetComponents<T>().Length > 0) return null;
-            return gameObject.AddComponent<T>();
+            var component = gameObject.AddComponent<T>();
+            (component as IBehaviour)?.Activate();
+            return component;
         }
         public void RemoveBehaviour<T>(T t) where T : BehaviourBase => Destroy(gameObject.GetComponents<T>().ToList().Find(x => x == t));
 

@@ -17,6 +17,7 @@ namespace TopdownManipulation
         {
             if (Input.GetMouseButtonDown(0))
             {
+                if(IsClickOnUI()) return;
                 var primitive = TryRaycast<Primitive>();
                 if (primitive != null) ManipulationController.Select(primitive);
                 else ManipulationController.Deselect();
@@ -27,11 +28,11 @@ namespace TopdownManipulation
         {
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             bool hitState = Physics.Raycast(ray, out var raycastHit, 100, layerMask);
-            if (hitState)
-            {
-                return raycastHit.collider.GetComponent<T>();
-            }
+            if (hitState) return raycastHit.collider.GetComponent<T>();
+            
             return null;
         }
+        
+        bool IsClickOnUI() => UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject();
     }
 }

@@ -1,22 +1,30 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TopdownManipulation.Primitives;
 using UnityEngine;
 
-public class UIWorldSpaceCanvas : MonoBehaviour
+public abstract class UI_WorldSpaceCanvas : MonoBehaviour
 {
-    [SerializeField] float _secondsToFade;
+    protected Primitive _primitive;
+    
+    [SerializeField] float _secondsToFade = 0.35f;
     float _currentSeconds;
     
     bool _canvasState;
     CanvasGroup _canvasGroup;
 
-    public void Awake()
+    public virtual void Awake()
     {
         _canvasGroup = GetComponentInChildren<CanvasGroup>() ?? 
                        gameObject.GetComponentInChildren<Canvas>().gameObject.AddComponent<CanvasGroup>();
         Show();
         _canvasGroup.alpha = 0;
+    }
+
+    public virtual void Setup(Primitive p)
+    {
+        _primitive = p;
     }
 
     public void Show()
@@ -33,9 +41,9 @@ public class UIWorldSpaceCanvas : MonoBehaviour
     void Update()
     {
         _currentSeconds += Time.deltaTime;
-        UpdateCanvasState(_canvasState);
+        UpdateCanvasGroupState(_canvasState);
     }
-    void UpdateCanvasState(bool state)
+    void UpdateCanvasGroupState(bool state)
     {
         float qt = _currentSeconds / _secondsToFade;
         if (qt >= 1) qt = 1;

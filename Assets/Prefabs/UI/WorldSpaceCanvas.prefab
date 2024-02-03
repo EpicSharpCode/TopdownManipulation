@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7742039649267546352}
   - component: {fileID: 2241305911334607848}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: RedPulseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,9 +405,8 @@ GameObject:
   - component: {fileID: 8249307062691663709}
   - component: {fileID: 5208908154082597041}
   - component: {fileID: 1585383283408485704}
-  - component: {fileID: 6213522902473423694}
   m_Layer: 5
-  m_Name: Button
+  m_Name: GreenColorButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,18 +529,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0.0141509175, g: 0.41122892, b: 1, a: 1}
   m_EffectDistance: {x: -0.04, y: -0.04}
   m_UseGraphicAlpha: 1
---- !u!114 &6213522902473423694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2849804460814958793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22068b5d484174576b0d37865f78161a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2915544954129771787
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,7 +672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1283242983132935497}
-  - component: {fileID: 7478418803569248127}
+  - component: {fileID: 642125077957769010}
   m_Layer: 5
   m_Name: WorldSpaceCanvas
   m_TagString: Untagged
@@ -709,7 +696,7 @@ Transform:
   - {fileID: 5124770605047452437}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7478418803569248127
+--- !u!114 &642125077957769010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -718,10 +705,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4398917277677385295}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bec13b9973b6e49bf87861d51e6d175a, type: 3}
+  m_Script: {fileID: 11500000, guid: da3acaf8320e4162a7baf93988f8567c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _secondsToFade: 0.35
+  _greenColorButton: {fileID: 5208908154082597041}
+  _redPulseButton: {fileID: 7742039649267546352}
+  _upMoveButton: {fileID: 1727702425923337749}
+  _activeButtonColor: {r: 0.6082237, g: 0.9622642, b: 0.43120328, a: 1}
+  _inactiveButtonColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &7302337664338333878
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +728,7 @@ GameObject:
   - component: {fileID: 1727702425923337749}
   - component: {fileID: 1239674577053591909}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: UpMoveButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
